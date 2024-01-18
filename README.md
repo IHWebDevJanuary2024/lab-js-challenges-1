@@ -15,6 +15,10 @@
 
   Upon completion of this exercise, you will be able to:
 
+
+
+  
+
   - Run predefined tests in Jasmine to check that JavaScript program meets the technical requirements.
   - Identify expected code behavior by reading and understanding test results and errors.
   - Pass arrays and primitive values as arguments to functions.
