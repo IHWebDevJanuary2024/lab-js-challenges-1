@@ -1,6 +1,7 @@
 // Iteration 1 | Count Repetition
 const repeatedWords = [
   "machine",
+  "car",
   "matter",
   "subset",
   "trouble",
@@ -13,13 +14,27 @@ const repeatedWords = [
   "matter"
 ];
 
-function howManyTimes() {}
+function howManyTimes(arrayOfWords, wordToSearch) {
+  let counter = 0;
+  arrayOfWords.forEach(word => {
+    if (word === wordToSearch) {
+      counter++;
+    }
+  });
+  return counter;
+}
 
 
 
 
 // Iteration 2 | Number Sequence
-function createSequence() {}
+function createSequence() {
+  let sequence = [];
+  for (let i = 1; i <= 10; i++) {
+    sequence.push(i);
+  }
+  return sequence;
+}
 
 
 
@@ -27,7 +42,13 @@ function createSequence() {}
 // Iteration 3 | Multiply for Each
 const numbers = [1, 2, 5, 10, 13, 50];
 
-function multiplyBy() {}
+function multiplyBy(numbers) {
+  let multiplied = [];
+  numbers.forEach(number => {
+    multiplied.push(number * 2);
+  });
+  return multiplied;
+}
 
 
 
